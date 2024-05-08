@@ -1,0 +1,51 @@
+.food-container-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-container {
+  flex: 0 0 70%; 
+}
+
+.selected-foods {
+  flex: 0 0 30%; 
+}
+
+.box {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.media-left img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.field.has-addons {
+  margin-top: 10px;
+}
+
+.input {
+  width: 60px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.is-info {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.is-info:hover {
+  background-color: #388e3c;
+}
+
+small {
+  color: #666;
+}
